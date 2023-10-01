@@ -14,8 +14,12 @@
 -- Copyright (C) 2020 Nathan.S at https://github.com/NathanSalapat
 -- ---------------------------------------
 
+# intllib is DEPRECATED 
+# Minetest 5.0 has builtin support for client-side translation, accessed by minetest.get_translator()
+#local S = mobs.intllib
 
-local S = mobs.intllib
+
+local S = minetest.get_translator("mobs")
 
 
 -- Original Cow Code by Krupnovpavel
