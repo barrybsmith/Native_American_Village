@@ -80,8 +80,16 @@ SPELLING: teepee/tepee/tipi https://en.wikipedia.org/wiki/Tipi
 
 ---------------------------------------------------------------------------
 
-Patch-1
-Fix Updated intllib to mobs.intllib 
-intllib is DEPRECATED 
-Minetest 5.0 has builtin support for client-side translation, accessed by minetest.get_translator()
+# Patch-1
+- Fix Updated intllib to mobs.intllib 
+- intllib is DEPRECATED 
+- Minetest 5.0 has builtin support for client-side translation, accessed by minetest.get_translator()
 local S = mobs.intllib to local S = minetest.get_translator("mobs")
+
+
+---------------------------------------------------------------------------
+
+- Added a long canoe.
+
+![Screenshot from 2023-10-19 22-50-30](https://github.com/yonacwy/Native_American_Village/assets/3211998/e63b6fd9-59e2-45a8-9b7a-d194dbbb653d)
+
