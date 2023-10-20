@@ -76,3 +76,15 @@ Totem Pole
 - https://commons.wikimedia.org/wiki/File:Totem_Poles,_Stanley_Park,_Vancouver_BC_May_2018.jpg   SHARE ALIKE
 
 SPELLING: teepee/tepee/tipi https://en.wikipedia.org/wiki/Tipi
+
+
+---------------------------------------------------------------------------
+
+Patch-1
+Fix Updated intllib to mobs.intllib 
+# intllib is DEPRECATED 
+# Minetest 5.0 has builtin support for client-side translation, accessed by minetest.get_translator()
+#local S = mobs.intllib
+
+
+local S = minetest.get_translator("mobs")
