@@ -10,6 +10,7 @@ local S, NS = dofile(MP.."/intllib.lua")
 dofile(path .. "/indianvillage.lua") -- Steamed_Punk
 dofile(path .. "/decor.lua") -- Steamed_Punk
 dofile(path .. "/bbcanoe.lua") -- Steamed_Punk
+dofile(path .. "/bblongcanoe.lua") -- Steamed_Punk
 dofile(path .. "/campfire.lua") -- Steamed_Punk
 dofile(path .. "/buffalo.lua") -- Steamed_Punk
 dofile(path .. "/tools.lua") -- Steamed_Punk
